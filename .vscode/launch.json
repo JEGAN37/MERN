@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "d:\\MERN\\javascript\\index.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open script.js",
+            "file": "d:\\MERN\\javascript\\script.js"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open app.js",
+            "file": "d:\\MERN\\javascript\\app.js"
+        },
+
+        
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open media.html",
+            "file": "d:\\MERN\\media.html"                                                      
+        }
+    ]
+}

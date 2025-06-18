@@ -1,9 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Portfolio</title>
+    <style>
+        nav {
+            background-color: #878080;
+            color: white;
+            padding: 10px;
+            box-shadow: 0 4px 2px -2px gray;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin-right: 30px;
+        } 
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .name {
+            position: absolute;
+            left: 10px;
+            top: -10px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            flex-direction: row;
+            align-items: center;
+            height: 100vh;
+        }
+        .child{
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            border: 2px solid #000;
+        }
+    </style>
 </head>
-<body>
-    <h1>Hello World!</h1>
+
+<body style="background-color:lightgrey;">
+    <nav>
+        <ul class="name">
+            <li><a href="#Home"><h2>Jegan J B</h2><a></li>
+        </ul>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#Projects">Projects</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="child">
+        </div>
+        <div class="child">
+        </div>
+        <div class="child">
+        </div>
+    </div>
 </body>
 </html>
