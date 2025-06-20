@@ -1,14 +1,11 @@
 import React from 'react'
-import skills from './skills'
 
-const home = () => {
-  const skillLevel = 'Advanced';
+const Home = () => {
   return (
     <div>
-      <h1>Home Page</h1>
-      <skills skillLevel={skillLevel} />  
+      <h1>home page</h1>
     </div>
   )
-}
+}    
 
-export default home
+export default Home;
