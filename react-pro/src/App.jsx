@@ -1,5 +1,6 @@
 import React from 'react'
 import Contact from './pages/Contact'
+import About from './pages/About'
 import Home from './pages/Home'
 import Skills from './pages/Skills'
 import Form from './pages/Form'
