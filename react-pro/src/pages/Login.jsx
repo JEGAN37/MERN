@@ -6,7 +6,7 @@ const Login = () => {
         password:''
     })
     const handleSubmit=(e)=>{
-        e.preventDefault(),
+        e.preventDefault()
         console.log(formData)
         setFormData({
             email:'',
@@ -35,4 +35,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login    

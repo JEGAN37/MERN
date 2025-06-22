@@ -9,13 +9,14 @@ import Counter from './components/Counter'
 import State from  './Hooks/State'
 import Hooks from './pages/Hooks'
 import Effect from './Hooks/Effect'
+import Ref from './Hooks/Ref'
 import Login from './pages/Login'
+import Reducer from './Hooks/Reducer'
 import {Route,Routes } from 'react-router-dom'
 const App = () => {
   return (
     <div>
       <Navbar/>
-      <Login/>
       <Routes>
         <Route  path="/" element={<Home/>}/>
         <Route  path="/about" element={<About />} />
@@ -25,6 +26,8 @@ const App = () => {
         <Route  path="/hooks" element={<Hooks/>} />
         <Route  path="/state" element={<State/>} />
         <Route  path='/effect' element={<Effect/>} />
+        <Route path='/ref' element={<Ref/>}/>
+        <Route path='/reducer' element={<Reducer/>}/>
 
       </Routes> 
       

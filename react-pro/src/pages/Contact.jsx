@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import Context from '../Hooks/Context'
 
-const contact = () => {
+const Contact = () => {
+  const user=useContext(Context)
   return (
     <div>
-      <h1>Contact Us</h1>
+      <h1>{user.name}</h1>
+      <h1>{user.phn}</h1>
     </div>
   )
 }
 
-export default contact
+export default Contact 
